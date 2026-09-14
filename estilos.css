@@ -1,0 +1,14 @@
+
+body {
+    background-color: azure;
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: rgb(212, 45, 190);
+}
+header{
+    padding: 40px;
+    text-align: center;
+}
