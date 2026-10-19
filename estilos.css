@@ -1,17 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     margin: 0;
     background-color: lightgray;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Clarity City", sans-serif;
     color: #222;
 }
 
 h1 {
-    color: crimson;
+    color: rgb(201, 74, 99);
     font-size: 3em;
+}
+nav{
+    background-color: navy;
+    text-align: center;
+    padding: 16px;
+}
+
+nav a{
+    color: aquamarine;
+    font-weight: 600;
+    text-decoration: dotted;
+    margin: 0 12px;
+}
+
+nav a:hover{
+    color: azure
 }
 
 h2{
     font-size: 1.5rem;
+    color: rgb(190, 47, 185);
 }
 
 p{
@@ -34,8 +53,14 @@ main{
     margin: auto;
 }
 
+.excusa{
+    background-color: azure;
+    padding: 50px;
+    margin-bottom: 12px;
+}
+
 section{
-    background-color: ghostwhite;
+    background-color: rgb(198, 198, 247);
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -43,4 +68,6 @@ section{
 footer{
     padding: 20px;
     text-align: center;
+    text-shadow: #222;
+    background: #a884f8;
 }
